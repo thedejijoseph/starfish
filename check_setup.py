@@ -16,7 +16,7 @@ def run_data_pipeline():
     
     # Example usage: log a sample product fetch
     sample_product = {"name": "Sample Product", "price": 100}
-    logger.debug("Fetched product: %s", sample_product)
+    logger.info("Fetched product: %s", sample_product)
     
 if __name__ == "__main__":
     run_data_pipeline()
